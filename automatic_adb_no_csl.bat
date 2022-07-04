@@ -176,6 +176,9 @@ adb shell pm uninstall -k --user 0 com.microsoft.skydrive
 adb shell pm uninstall -k --user 0 com.microsoft.appmanager
 adb shell pm uninstall -k --user 0 com.microsoft.office.outlook
 adb shell pm uninstall -k --user 0 com.microsoft.office.officehubrow
+adb shell pm uninstall -k --user 0 com.microsoft.office.powerpoint
+adb shell pm uninstall -k --user 0 com.microsoft.office.word
+adb shell pm uninstall -k --user 0 com.microsoft.office.excel
 
 timeout 3 & echo. & cls
 
